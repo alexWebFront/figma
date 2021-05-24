@@ -182,10 +182,33 @@ h3 {
   position: relative;
 }
 
-.features__video-btn{
+.features__video-btn {
   position: absolute;
-  top: calc(50% - 85.4px/2 - 0.15px);
-  left: calc(50% - 190.7px/2 + 0.33px);
+  top: calc(50% - 85.4px / 2 - 0.15px);
+  left: calc(50% - 190.7px / 2 + 0.33px);
 }
 
 /* end section Features */
+
+/* start section organize */
+
+.organize {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 241px;
+  padding-bottom: 287px;
+  padding-left: 267px;
+  padding-right: 358px;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.organize_btn {
+  margin-top: 70px;
+}
+
+
+
+/* end section organize */
