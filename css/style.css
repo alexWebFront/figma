@@ -23,6 +23,10 @@ h3 {
   margin: 0;
 }
 
+button{
+  border: none;
+}
+
 /* start section top */
 
 .top {
@@ -357,3 +361,142 @@ h3 {
 }
 
 /* end section testimonials */
+
+/* start section pricing */
+
+.pricing {
+  padding-top: 110px;
+  padding-bottom: 100px;
+  background: #252b42;
+}
+
+.heading-color {
+  color: #ffffff;
+}
+
+.pricing__card {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 336px;
+  padding-left: 336px;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 90px;
+}
+
+.pricing__card-item {
+  background: #ffffff;
+  border: 1px solid #dedede;
+  box-sizing: border-box;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  padding: 43px 40px 40px 40px;
+  text-align: center;
+}
+
+.pricing__card-level {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+
+.pricing__card-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #374754;
+}
+
+.pricing__card-cost {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 74px;
+  line-height: 84px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+
+.pricing__card-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+
+.flex-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.cost-flex {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.cost-symbol {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+
+.cost-margin {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+  color: #374754;
+}
+
+.pricing__card-item_blue {
+  padding-top: 86px;
+  padding-bottom: 83px;
+  background: #2091f9;
+}
+
+.pricing__card-level_white {
+  color: #ffffff;
+}
+
+.pricing__card-text_white {
+  color: #ffffff;
+}
+
+.pricing__card-cost_white {
+  color: #ffffff;
+}
+
+.cost-symbol_white {
+  color: #ffffff;
+}
+
+.cost-margin_white {
+  color: #ffffff;
+}
+
+.pricing__card-description_white {
+  color: #ffffff;
+}
+
+.btn_white {
+  color: #2091f9;
+  background: #fff;
+  }
+
+/* end section pricing */
