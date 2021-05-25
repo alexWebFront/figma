@@ -45,7 +45,6 @@ h3 {
 }
 
 .menu__item {
-  font-family: Graphik;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -98,8 +97,7 @@ h3 {
 .btn {
   background: #2091f9;
   border-radius: 35px;
-  width: 236px;
-  height: 52px;
+  padding: 16px 59.5px;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -112,7 +110,7 @@ h3 {
 
 /* end section top */
 
-/* start section Features */
+/* start section features */
 
 .features {
   padding-top: 126px;
@@ -188,7 +186,7 @@ h3 {
   left: calc(50% - 190.7px / 2 + 0.33px);
 }
 
-/* end section Features */
+/* end section features */
 
 /* start section organize */
 
@@ -209,6 +207,69 @@ h3 {
   margin-top: 70px;
 }
 
-
-
 /* end section organize */
+
+/* start section subscribe */
+
+.subscribe {
+  padding-top: 159px;
+  padding-bottom: 90px;
+}
+.container {
+  padding-right: 168.5px;
+  padding-left: 168.5px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe__content {
+  padding-left: 123px;
+}
+
+.subscribe__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  color: #374754;
+  margin: 0;
+}
+
+.subscribe__text_bold {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+}
+
+.subscribe__heading_padding {
+  padding-top: 17px;
+  padding-bottom: 35px;
+}
+
+.subscribe__form {
+  padding-top: 36px;
+}
+
+.subscribe__input {
+  background: #f4f4f4;
+  border: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  border-radius: 39px;
+  padding: 19px 39px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: black;
+  margin-right: 13px;
+}
+
+/* end section subscribe */
