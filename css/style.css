@@ -273,3 +273,42 @@ h3 {
 }
 
 /* end section subscribe */
+
+/* start section partners */
+
+.partners {
+  padding-top: 130px;
+  padding-bottom: 80px;
+}
+
+.partners__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-right: 186px;
+  padding-left: 186px;
+  padding-top: 90px;
+  padding-bottom: 80px;
+}
+
+.partners__content-item {
+  border: 1px solid #d8d8d8;
+  padding-right: 40px;
+  padding-left: 40px;
+  text-align: center;
+}
+
+.partners__content-heading {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+  color: #374754;
+}
+
+.partners__btn {
+  text-align: center;
+}
+
+/* end section partners */
