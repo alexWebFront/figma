@@ -312,3 +312,48 @@ h3 {
 }
 
 /* end section partners */
+
+/* start section testimonials */
+
+.testimonials {
+  padding-top: 111px;
+  padding-bottom: 100px;
+}
+
+.testimonials__logo {
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 60px;
+}
+
+.testimonials__designer {
+  display: flex;
+  justify-content: center;
+  gap: 13px;
+  padding-top: 63px;
+  padding-bottom: 110px;
+}
+
+.testimonials__designer-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+  color: #374754;
+}
+
+.designer-text_bold {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+
+.testimonials__btn {
+  text-align: center;
+}
+
+/* end section testimonials */
