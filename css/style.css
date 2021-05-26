@@ -1,3 +1,23 @@
+@font-face {
+  font-family: "Graphik";
+  src: url("../fonts/Graphik-Regular.eot");
+  src: local("☺"), url("../fonts/Graphik-Regular.woff") format("woff"),
+    url("../fonts/Graphik-Regular.ttf") format("truetype"),
+    url("../fonts/Graphik-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Graphik";
+  src: url("../fonts/Graphik-Bold.eot");
+  src: local("☺"), url("../fonts/Graphik-Bold.woff") format("woff"),
+    url("../fonts/Graphik-Bold.ttf") format("truetype"),
+    url("../fonts/Graphik-Bold.svg") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -5,6 +25,8 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Graphik";
+  font-weight: normal;
 }
 
 ul {
@@ -55,7 +77,6 @@ button {
 
 .menu__item {
   font-style: normal;
-  font-weight: normal;
   font-size: 15px;
   line-height: 28px;
   text-align: center;
@@ -89,7 +110,6 @@ button {
 
 .header-desc {
   font-style: normal;
-  font-weight: normal;
   font-size: 28px;
   line-height: 40px;
   text-align: center;
@@ -104,11 +124,11 @@ button {
 }
 
 .btn {
+  font-weight: bold;
   background: #2091f9;
   border-radius: 35px;
   padding: 16px 59.5px;
   font-style: normal;
-  font-weight: normal;
   font-size: 20px;
   line-height: 20px;
   text-align: center;
@@ -129,7 +149,6 @@ button {
 
 .heading {
   font-style: normal;
-  font-weight: normal;
   font-size: 48px;
   line-height: 55px;
   text-align: center;
@@ -140,7 +159,6 @@ button {
 .heading-desc {
   padding-top: 27px;
   font-style: normal;
-  font-weight: normal;
   font-size: 28px;
   line-height: 40px;
   text-align: center;
@@ -164,8 +182,8 @@ button {
 }
 
 .features__item-heading {
-  font-style: normal;
   font-weight: bold;
+  font-style: normal;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
@@ -176,7 +194,6 @@ button {
 
 .features__item-text {
   font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 25px;
   text-align: center;
@@ -241,7 +258,6 @@ button {
 
 .subscribe__text {
   font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 25px;
   letter-spacing: 0.2px;
@@ -273,7 +289,6 @@ button {
   border-radius: 39px;
   padding: 19px 39px;
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.1px;
@@ -309,7 +324,6 @@ button {
 
 .partners__content-heading {
   font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 23px;
   letter-spacing: 0.1px;
@@ -345,7 +359,6 @@ button {
 
 .testimonials__designer-text {
   font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 23px;
   letter-spacing: 0.1px;
@@ -354,7 +367,6 @@ button {
 
 .designer-text_bold {
   font-style: normal;
-  font-weight: normal;
   font-size: 15px;
   line-height: 28px;
   letter-spacing: 0.2px;
@@ -411,7 +423,6 @@ button {
 
 .pricing__card-text {
   font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 23px;
   text-align: center;
@@ -420,8 +431,8 @@ button {
 }
 
 .pricing__card-cost {
-  font-style: normal;
   font-weight: bold;
+  font-style: normal;
   font-size: 74px;
   line-height: 84px;
   letter-spacing: 0.2px;
@@ -430,7 +441,6 @@ button {
 
 .pricing__card-description {
   font-style: normal;
-  font-weight: normal;
   font-size: 15px;
   line-height: 28px;
   letter-spacing: 0.2px;
@@ -462,7 +472,6 @@ button {
 .cost-margin {
   margin: 0;
   font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 23px;
   letter-spacing: 0.1px;
@@ -519,7 +528,6 @@ button {
 
 .footer__list-item {
   font-style: normal;
-  font-weight: normal;
   font-size: 15px;
   line-height: 28px;
   letter-spacing: 0.2px;
@@ -539,14 +547,13 @@ button {
 
 .footer__contacts-text {
   font-style: normal;
-  font-weight: normal;
   font-size: 15px;
   line-height: 27px;
   letter-spacing: 0.2px;
   color: #ffffff;
 }
 
-.footer__links{
+.footer__links {
   display: flex;
   padding-top: 22px;
 }
