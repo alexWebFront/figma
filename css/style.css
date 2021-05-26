@@ -88,11 +88,11 @@ button {
   padding-right: 304px;
 }
 
-.header__link {
+.social-buttons {
   display: flex;
 }
 
-.header__link-item {
+.social-buttons-item {
   padding-right: 32px;
 }
 
@@ -553,8 +553,7 @@ button {
   color: #ffffff;
 }
 
-.footer__links {
-  display: flex;
+.footer-padding {
   padding-top: 22px;
 }
 
